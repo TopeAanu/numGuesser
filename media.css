@@ -1,0 +1,19 @@
+@media (max-width: 300px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  input {
+    padding: .3rem;
+  }
+
+  @keyframes move {
+    10% {
+      transform: translateX(0);
+    }
+  
+    50% {
+      transform: translateX(15px);
+    }
+  }
+}

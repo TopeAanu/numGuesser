@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background: #000;
+  color: #fff;
+  line-height: 2;
+}
+
+.box {
+  margin: auto;
+  margin-top: 2rem;
+  max-width: 350px;
+  border: 1px solid #333;
+}
+
+.container {
+  padding: 1rem;
+}
+
+/* lets-play, animation */
+.lets-play {
+  font-size: 1.5rem;
+  padding: .7rem 0 .5rem 0;
+  animation: move 5s 2;
+}
+
+@keyframes move {
+  10% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(40px);
+  }
+}
+
+/* lets-play span */
+.blue {
+  color: blue;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.green {
+  color: green;
+}
+
+.purple {
+  color: purple;
+}
+
+/* message & guess-a-number */
+.guess-num {
+  color: #333;
+  padding-bottom: 1rem;
+}
+
+.message {
+  font-size: .9rem;
+  padding-top: .7rem;
+}
+
+/* input */
+input {
+  padding: .7rem;
+}
+
+input:focus {
+  border: 2px solid #87ceeb;
+  outline: none;
+}
+
+input[disabled] {
+  background: #ccc;
+}
